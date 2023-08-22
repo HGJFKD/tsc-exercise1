@@ -76,7 +76,7 @@ type Favorite = {
     favoriteBook: Book;
 };
 
-type Reader = Person&Favorite;
+type Reader = Person & Favorite;
 
 // Exercise 12
 // Return the older age reader
@@ -107,7 +107,7 @@ function oldBookIs (arrReader : Reader[]) : Book{
 
 // Reader 1
 const moshe : Reader = {
-    Name : "moshe",
+    Name: "moshe",
     Age: 527,
     isStudent: true,
     favoriteBook:{
